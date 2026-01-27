@@ -1,0 +1,87 @@
+,,,,,,,,,,,,,,,,
+country,COUNT of shipment_id,,shipment_mode,AVERAGE of on_time_flag,COUNT of shipment_id,,country,AVERAGE of delivery_delay_days,,shipment_mode,AVERAGE of freight_cost_usd_clean,SUM of freight_cost_usd_clean,,country,COUNT of shipment_id,AVERAGE of on_time_flag
+Afghanistan,3,,Air,90.40%,6113,,Afghanistan,0.00,,Air,"$10,458.96","$43,038,623.50",,Afghanistan,3,100.00%
+Angola,7,,Air Charter,88.46%,650,,Angola,0.00,,Air Charter,"$21,052.14","$8,926,108.48",,Angola,7,100.00%
+Belize,1,,N/A,98.89%,360,,Belize,-14.00,,N/A,"$6,619.43","$1,396,700.41",,Belize,1,100.00%
+Benin,13,,Ocean,82.48%,371,,Benin,2.38,,Ocean,"$12,733.08","$3,590,728.79",,Benin,13,76.92%
+Botswana,70,,Truck,83.92%,2830,,Botswana,-2.56,,Truck,"$10,176.41","$11,865,688.23",,Botswana,70,97.14%
+Burkina Faso,2,,Grand Total,88.51%,10324,,Burkina Faso,0.00,,Grand Total,"$11,103.23","$68,817,849.41",,Burkina Faso,2,100.00%
+Burundi,98,,note: Air shipments are most reliable. Truck shipments are least considering volume,,,,Burundi,-8.45,,"note:Air shipments take up the majority of of total cost, even though average shipments cost are about the same as for trucks.",,,,Burundi,98,61.22%
+CÃ´te d'Ivoire,1083,,,,,,CÃ´te d'Ivoire,-5.38,,,,,,CÃ´te d'Ivoire,1083,87.63%
+Cameroon,75,,,,,,Cameroon,-1.20,,,,,,Cameroon,75,90.67%
+"Congo, DRC",333,,vendor,AVERAGE of on_time_flag,COUNT of shipment_id,,"Congo, DRC",11.24,,shipment_mode,AVERAGE of cost_per_unit,,,"Congo, DRC",333,75.08%
+Dominican Republic,52,,Abbott GmbH & Co. KG,95.24%,21,,Dominican Republic,-10.62,,Air,$50.15,,,Dominican Republic,52,92.31%
+Ethiopia,216,,ABBOTT LABORATORIES (PUERTO RICO),100.00%,1,,Ethiopia,-3.19,,Air Charter,$56.96,,,Ethiopia,216,94.44%
+Ghana,58,,ABBOTT LOGISTICS B.V.,100.00%,1,,Ghana,-0.22,,N/A,$44.86,,,Ghana,58,86.21%
+Guatemala,15,,ABBVIE LOGISTICS (FORMERLY ABBOTT LOGISTICS BV),98.85%,347,,Guatemala,-1.00,,Ocean,$8.14,,,Guatemala,15,86.67%
+Guinea,1,,"ABBVIE, SRL (FORMALLY ABBOTT LABORATORIES INTERNATIONAL CO.)",100.00%,4,,Guinea,0.00,,Truck,$14.53,,,Guinea,1,100.00%
+Guyana,237,,"ACCESS BIO, INC.",100.00%,1,,Guyana,-17.82,,Grand Total,$39.12,,,Guyana,237,89.87%
+Haiti,655,,ACCOUN NIGERIA LIMITED,100.00%,3,,Haiti,-2.43,,"note: Air & Air Charter shipments are very expensive, given their reliability they might be better options. Truck and Ocen are extremely inexpensive. ",,,,Haiti,655,90.53%
+Kazakhstan,2,,ACOUNS NIGERIA LTD,100.00%,1,,Kazakhstan,0.00,,,,,,Kazakhstan,2,100.00%
+Kenya,111,,ACTION MEDEOR E.V.,100.00%,1,,Kenya,0.89,,,,,,Kenya,111,87.39%
+Kyrgyzstan,2,,AHN (PTY) LTD (AKA UCB (S.A.),100.00%,1,,Kyrgyzstan,0.00,,,,,,Kyrgyzstan,2,100.00%
+Lebanon,8,,AMSTELFARMA B.V.,100.00%,7,,Lebanon,0.00,,,,,,Lebanon,8,100.00%
+Lesotho,4,,ASPEN PHARMACARE,97.56%,41,,Lesotho,0.00,,,,,,Lesotho,4,100.00%
+Liberia,6,,AUROBINDO PHARAM (SOUTH AFRICA),100.00%,1,,Liberia,0.00,,,,,,Liberia,6,100.00%
+Libya,8,,Aurobindo Pharma Limited,85.93%,668,,Libya,-8.75,,,,,,Libya,8,87.50%
+Malawi,14,,B&C GROUP S.A.,100.00%,2,,Malawi,0.00,,,,,,Malawi,14,100.00%
+Mali,17,,BIO-RAD LABORATORIES (FRANCE),85.71%,28,,Mali,0.00,,,,,,Mali,17,100.00%
+Mozambique,631,,BIO-RAD LABORATORIES PTY LTD. (SOUTH AFRICA),100.00%,1,,Mozambique,-1.21,,,,,,Mozambique,631,81.62%
+Namibia,95,,BIOLYTICAL LABORATORIES INC.,100.00%,5,,Namibia,-0.63,,,,,,Namibia,95,98.95%
+Nigeria,1194,,BRISTOL-MYERS SQUIBB,100.00%,67,,Nigeria,-11.22,,,,,,Nigeria,1194,88.11%
+Pakistan,15,,BUNDI INTERNATIONAL DIAGNOSTICS LTD,100.00%,2,,Pakistan,0.00,,,,,,Pakistan,15,100.00%
+Rwanda,430,,CENTRAL PHARMACEUTICAL COMPANY NO. 1,100.00%,1,,Rwanda,-5.29,,,,,,Rwanda,430,91.40%
+Senegal,3,,"CHEMBIO DIAGNOSTIC SYSTEMS, INC.",99.08%,109,,Senegal,1.00,,,,,,Senegal,3,66.67%
+Sierra Leone,4,,CIPLA LIMITED,86.86%,175,,Sierra Leone,0.00,,,,,,Sierra Leone,4,100.00%
+South Africa,1406,,EMCURE PHARMACEUTICALS LTD,95.12%,41,,South Africa,-12.22,,,,,,South Africa,1406,91.82%
+South Sudan,164,,ETHNOR DEL ISTMO S.A.,100.00%,2,,South Sudan,-1.07,,,,,,South Sudan,164,87.20%
+Sudan,46,,EY Laboratories,100.00%,2,,Sudan,-0.52,,,,,,Sudan,46,100.00%
+Swaziland,35,,"GILEAD SCIENCES IRELAND, INC.",100.00%,4,,Swaziland,-5.00,,,,,,Swaziland,35,91.43%
+Tanzania,519,,GLAXOSMITHKLINE EXPORT LIMITED,100.00%,20,,Tanzania,-4.39,,,,,,Tanzania,519,87.28%
+Togo,3,,HETERO LABS LIMITED,99.28%,277,,Togo,5.33,,,,,,Togo,3,66.67%
+Uganda,779,,Hoffmann-La Roche ltd Basel,100.00%,23,,Uganda,-7.58,,,,,,Uganda,779,87.42%
+Vietnam,688,,HUMAN GMBH,100.00%,3,,Vietnam,-0.35,,,,,,Vietnam,688,99.13%
+Zambia,683,,IDA FOUNDATION,100.00%,17,,Zambia,-5.23,,,,,,Zambia,683,84.19%
+Zimbabwe,538,,IDIS LIMITED,100.00%,6,,Zimbabwe,-11.01,,,,,,Zimbabwe,538,85.69%
+Grand Total,10324,,IMRES B.V.,100.00%,4,,Grand Total,-6.02,,,,,,Grand Total,10324,88.51%
+"note: South Africa 🇿🇦 (1406) has the highest number of shipments. Followed by Nigeria 🇳🇬 (1194), then CÃ´te d'Ivoire (1083)  ",,,INTERNATIONAL HEALTHCARE DISTRIBUTORS,100.00%,10,,note: Only 1 country with double digit late average. Although there are many countries that are double digit early averages. ,,,,,,,note: Most glaring SLA issues are shipments to Congo 🇨🇩  333 shipments at 75% on time,,
+,,,INVERNESS MEDICAL INNOVATIONS HONG KONG LTD,100.00%,2,,,,,,,,,,,
+,,,INVERNESS MEDICAL INNOVATIONS SOUTH AFRICA (PTY) LTD,100.00%,2,,,,,,,,,,,
+,,,JANSSEN SCIENCES IRELAND UC (FORMERLY JANSSEN R&D IRELAND),100.00%,7,,,,,,,,,,,
+,,,"JSI R&T INSTITUTE, INC.",97.37%,38,,,,,,,,,,,
+,,,KAS MEDICS LIMITED,100.00%,1,,,,,,,,,,,
+,,,LAWRENCE LABORATORIES (SUBSIDIARY OF BRISTOL MYERS SQUIBB),100.00%,18,,,,,,,,,,,
+,,,MEDMIRA EAST AFRICA LTD.,100.00%,1,,,,,,,,,,,
+,,,MERCK SHARP & DOHME IDEA GMBH (FORMALLY MERCK SHARP & DOHME B.V.),98.53%,68,,,,,,,,,,,
+,,,MICRO LABS LIMITED,100.00%,35,,,,,,,,,,,
+,,,MISSIONPHARMA A/S,100.00%,3,,,,,,,,,,,
+,,,"MSD LATIN AMERICA SERVICES, S. DE R.L. DE C.V.",100.00%,2,,,,,,,,,,,
+,,,MYLAN LABORATORIES LTD (FORMERLY MATRIX LABORATORIES),99.37%,317,,,,,,,,,,,
+,,,NOVARTIS PHARMA SERVICES AG,100.00%,5,,,,,,,,,,,
+,,,OMEGA DIAGNOSTICS LTD,100.00%,1,,,,,,,,,,,
+,,,Orasure Technologies Inc.,98.21%,56,,,,,,,,,,,
+,,,"Orgenics, Ltd",87.00%,754,,,,,,,,,,,
+,,,PHARMACY DIRECT,100.00%,326,,,,,,,,,,,
+,,,PLURIPHARM S.A.,100.00%,1,,,,,,,,,,,
+,,,Premier Medical Corporation Ltd.,100.00%,12,,,,,,,,,,,
+,,,"PUETRO RICO PHARMACEUTICAL, INC.",100.00%,1,,,,,,,,,,,
+,,,"RAININ INSTRUMENT, LLC.",100.00%,1,,,,,,,,,,,
+,,,RANBAXY Fine Chemicals LTD.,100.00%,2,,,,,,,,,,,
+,,,REINBOLD EXPORT IMPORT,91.67%,12,,,,,,,,,,,
+,,,S. BUYS WHOLESALER,98.46%,715,,,,,,,,,,,
+,,,SCMS from RDC,82.85%,5404,,,,,,,,,,,
+,,,SETEMA LIMITED PLC,100.00%,1,,,,,,,,,,,
+,,,"SHANGHAI KEHUA BIOENGINEERING CO.,LTD.  (KHB)",97.14%,70,,,,,,,,,,,
+,,,"Standard Diagnostics, Inc.",95.92%,98,,,,,,,,,,,
+,,,STRIDES ARCOLAB LIMITED,95.70%,93,,,,,,,,,,,
+,,,SUB-SAHARAN BIOMEDICAL P.L.C.,100.00%,1,,,,,,,,,,,
+,,,SUN PHARMACEUTICAL INDUSTRIES LTD (RANBAXY LABORATORIES LIMITED),88.89%,9,,,,,,,,,,,
+,,,SWORDS LABORATORIES,100.00%,3,,,,,,,,,,,
+,,,SYSMEX AMERICA INC,100.00%,1,,,,,,,,,,,
+,,,THE MEDICAL EXPORT GROUP BV,100.00%,1,,,,,,,,,,,
+,,,"Trinity Biotech, Plc",99.72%,356,,,,,,,,,,,
+,,,TURE PHARMACEUTICALS & MEDICAL SUPPLIES P.L.C.,100.00%,3,,,,,,,,,,,
+,,,WAGENIA,100.00%,2,,,,,,,,,,,
+,,,ZEPHYR BIOMEDICALS,100.00%,5,,,,,,,,,,,
+,,,Grand Total,88.51%,10324,,,,,,,,,,,
+,,,"note: Considering vendors with 100+ shipments, PHARMACY DIRECT is the most reliable at 100% on-time / 326 shipments. ",,,,,,,,,,,,,

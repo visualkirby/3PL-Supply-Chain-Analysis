@@ -1,0 +1,2 @@
+total_shipments,on_time_delivery_pct,avg_delivery_delay_days,total_logistics_cost,cost_per_unit,late_shipment_rate,avg_freight_cost_first_line
+10324,88.51%,-6.023537389,"$1,698,812,367.31",$39.12,11.49%,"$11,103.23"
