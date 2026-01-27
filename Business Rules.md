@@ -1,0 +1,6 @@
+- Cleaned date fields preserve valid dates and NULL invalid or missing values
+- Cleaned numeric fields retain only valid integers or floats
+- on_time_flag = 1 when delivered_date_clean ≤ scheduled_delivery_date_clean
+- delivery_delay_days = delivered_date_clean − scheduled_delivery_date_clean
+- Rows with missing scheduled_delivery_date_clean are excluded from SLA metrics
+- Freight and weight fields apply only to FirstLine designated records
