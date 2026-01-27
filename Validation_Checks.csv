@@ -1,0 +1,57 @@
+Section A (Row Reconciliation),,
+Raw Rows,Clean Rows,Pass / Fail
+10324,10324,✅️ Pass
+,,
+Section B (NULL Checks / High-Risk Columns),,
+shipment_id,0,✅️ Pass
+shipment_mode,0,✅️ Pass
+scheduled _delivery_date,0,✅️ Pass
+delivered_date,0,✅️ Pass
+,,
+Section C (Cost Integrity),,
+Negative Freight Check,0,✅️ Pass
+Quantity Check ,0,✅️ Pass
+,,
+Raw Line Item Value non-numeric count,0,✅️ Pass
+Clean Line Item Value null count,0,
+,,
+Raw Pack Price non-numeric count,0,✅️ Pass
+Clean Pack Price null count,0,
+,,
+Raw Unit Price non-numeric count,0,✅️ Pass
+Clean Unit Price null count,0,
+,,
+Raw Freight Cost non-numeric count,4126,✅️ Pass
+Clean Freight Cost null count,4126,
+,,
+Cost per unit null count,0,✅️ Pass
+Total logistics cost null count,0,✅️ Pass
+,,
+Section D (Numeric Integrity),,
+Raw Line Item Insurance non-numeric count,287,✅️ Pass
+Clean Line Item Insurance null count,287,
+,,
+Raw Weight Kilograms non-numeric count,3952,✅️ Pass
+Clean Weight Kilograms null count,3952,
+,,
+Raw Line Item Quantity non-numeric count,0,✅️ Pass
+Clean Line Item Quantity null count,0,
+,,
+Raw Unit of Measure Per Pack non-numeric count,0,✅️ Pass
+Clean Unit of Measure Per Pack null count,0,
+,,
+Section E (Date Integrity),,
+Raw PQ Date non-date count,2681,✅️ Pass
+Clean PO Date null count,2681,
+,,
+Raw PO Date non-date count,5732,✅️ Pass
+Clean PO Date null count,5732,
+,,
+Raw Scheduled Date non-date count,0,✅️ Pass
+Clean Scheduled Date null count,0,
+,,
+Raw Delivery Date non-date count,0,✅️ Pass
+Clean Delivery Date null count,0,
+,,
+Raw Recorded Date non-date count,0,✅️ Pass
+Clean Recorded Date null count,0,
