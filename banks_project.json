@@ -1,0 +1,143 @@
+{
+  "project_id": "PROJ_3PL_SUPPLY_CHAIN_ANALYSIS",
+  "group_id": "PROJECT_GROUP_SUPPLY_CHAIN",
+
+  "title": "3PL Supply Chain Analysis",
+  "short_summary": "Shipment pricing and delivery reliability analysis for 3PL optimization",
+  "summary": "End-to-end supply chain analytics project analyzing shipment pricing, on-time delivery performance, and cost tradeoffs across transportation modes, vendors, and geographies. Identifies SLA risk drivers and highlights where 3PLs can improve reliability without defaulting to high-cost air freight.",
+
+  "role_scope": "base|operations|supply_chain",
+
+  "skills": [
+    "Tableau",
+    "Python",
+    "SQL",
+    "R",
+    "Excel",
+    "Supply Chain Analytics",
+    "Logistics Cost Analysis",
+    "KPI Development",
+    "Vendor Performance"
+  ],
+
+  "domains": [
+    "supply_chain_analytics",
+    "shipment_pricing_analysis",
+    "transportation_mode_optimization",
+    "vendor_and_geographic_risk"
+  ],
+
+  "tags": [
+    "supply_chain_analytics",
+    "logistics_analytics",
+    "on_time_delivery",
+    "sla_risk",
+    "cost_optimization",
+    "tableau_dashboard"
+  ],
+
+  "datasets": [
+    {
+      "dataset_key": "source_dataset",
+      "dataset_value": "Supply Chain Shipment Pricing Data (Kaggle – Sawandi Kirby)",
+      "dataset_link": "https://www.kaggle.com/datasets/sawandikirby/supply-chain-shipment-pricing-data"
+    }
+  ],
+
+  "components": [
+    {
+      "component_id": "COMP_3PL_RAW_DATA",
+      "name": "Raw Shipment Dataset",
+      "component_type": "raw_datasets",
+      "deliverable_type": "dataset",
+      "objective": "Provide reproducible shipment pricing and delivery data",
+      "business_value": "Ensures data lineage and repeatable analytics",
+      "files": [
+        "Raw_Data.csv"
+      ],
+      "tools": [
+        { "tool_label": "Kaggle", "tool_keyword": "kaggle" },
+        { "tool_label": "CSV", "tool_keyword": "csv" }
+      ],
+      "skills": [
+        { "skill_keyword": "data_sourcing", "weight": 0.6 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_3PL_CLEANED_DATA",
+      "name": "Cleaned Analytical Dataset",
+      "component_type": "cleaned_analytical_dataset",
+      "deliverable_type": "dataset",
+      "objective": "Clean and standardize shipment fields and dates",
+      "business_value": "Improves KPI accuracy and reduces noise",
+      "files": [
+        "Cleaned_Data.csv"
+      ],
+      "tools": [
+        { "tool_label": "Python", "tool_keyword": "python" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+      "skills": [
+        { "skill_keyword": "data_cleaning", "weight": 0.5 },
+        { "skill_keyword": "data_transformation", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_3PL_KPI_EXPORTS",
+      "name": "KPI Calculations",
+      "component_type": "data_exports",
+      "deliverable_type": "dataset",
+      "objective": "Generate validated KPIs for delivery and cost tradeoffs",
+      "business_value": "Supports decision-ready analytics",
+      "files": [
+        "KPI_Calculations.csv"
+      ],
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "CSV", "tool_keyword": "csv" }
+      ],
+      "skills": [
+        { "skill_keyword": "kpi_development", "weight": 0.6 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_3PL_TABLEAU_DASHBOARD",
+      "name": "Tableau Dashboard",
+      "component_type": "dashboard",
+      "deliverable_type": "dashboard",
+      "objective": "Visualize SLA and cost drivers interactively",
+      "business_value": "Enables rapid insight exploration",
+      "files": [
+        "SCMS_Delivery_History_Dashboard.png"
+      ],
+      "tools": [
+        { "tool_label": "Tableau", "tool_keyword": "tableau" }
+      ],
+      "skills": [
+        { "skill_keyword": "data_visualization", "weight": 0.6 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_3PL_EXEC_PRESENTATION",
+      "name": "Executive Presentation",
+      "component_type": "slides_and_video",
+      "deliverable_type": "pdf",
+      "objective": "Communicate insights and recommendations",
+      "business_value": "Drives stakeholder action",
+      "files": [
+        "SCMS_Delivery_History_Presentation.pdf",
+        "SCMS_Delivery_History_Presentation.pptx"
+      ],
+      "tools": [
+        { "tool_label": "PowerPoint", "tool_keyword": "powerpoint" }
+      ],
+      "skills": [
+        { "skill_keyword": "executive_communication", "weight": 0.7 }
+      ]
+    }
+  ]
+}
