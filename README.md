@@ -172,6 +172,27 @@ Chronological record of analysis steps, decisions, and revisions made during the
 
 ---
 
+## ❓ Why This Exists
+
+Logistics and supply chain decisions are often framed as a simple tradeoff:  
+**pay more to ship faster, or accept delays to save cost.**
+
+In practice, that framing leaves value on the table.
+
+This project exists to show how **delivery reliability can be improved without defaulting to higher-cost shipment modes**, by identifying:
+- High-volume lanes where small improvements move overall SLA performance
+- Vendor coverage gaps that increase delay risk
+- Situations where rebalancing shipment modes is more effective than spending more
+
+Rather than optimizing for speed or cost in isolation, this analysis focuses on **decision-ready insights** that help third-party logistics providers:
+- Improve on-time delivery performance
+- Reduce SLA risk
+- Control transportation and logistics spend
+
+The goal is not to build charts for their own sake, but to demonstrate how **data-driven operational decisions** can meaningfully improve supply chain performance at scale.
+
+---
+
 ## 🗂 File Structure
 
 ```txt
