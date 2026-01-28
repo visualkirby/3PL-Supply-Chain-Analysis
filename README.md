@@ -90,9 +90,9 @@ Interactive dashboard and guided story used to analyze delivery performance, cos
 Public shipment pricing and delivery data used to analyze cost, delay patterns, and operational trade-offs in a 3PL context.
 
 ### Source
-[![Kaggle: Supply Chain Shipment Pricing Data](https://img.shields.io/badge/🌐_Kaggle:_Supply_Chain_Shipment_Pricing_Data-1C93E8)](https://www.kaggle.com/datasets/divyeshardeshana/supply-chain-shipment-pricing-data/data)  
+[![Kaggle: Supply Chain Shipment Pricing Data](https://img.shields.io/badge/🌐_Kaggle:_Supply_Chain_Shipment_Pricing_Data-1C93E8)](https://www.kaggle.com/datasets/sawandikirby/supply-chain-shipment-pricing-data)  
 
-*Author: Divyesh Ardeshana*
+*Author: Sawandi Kirby*
 
 ### Raw
 
