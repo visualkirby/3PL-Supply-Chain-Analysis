@@ -113,7 +113,7 @@ Analytical workflow used to clean the data, explore delivery and cost drivers, d
 
 ### Code
 
-[![Kaggle Notebook](https://img.shields.io/badge/📓_Kaggle_Notbook-334155)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/KPIs.md)
+[![Kaggle Notebook](https://img.shields.io/badge/📓_Kaggle_Notbook-334155)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/clean-and-analyze-py.ipynb)
 
 [![Clean & Analysis SQL Script](https://img.shields.io/badge/🗄️_Clean_&_Analysis_SQL_Script-1F2937)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/clean_and_analyze.sql)
 
