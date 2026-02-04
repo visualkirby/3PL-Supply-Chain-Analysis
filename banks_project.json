@@ -19,6 +19,8 @@
     "KPI Development",
     "Vendor Performance"
   ],
+  
+  "repo_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis",
 
   "domains": [
     "supply_chain_analytics",
