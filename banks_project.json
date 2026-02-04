@@ -23,6 +23,7 @@
   "repo_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis",
 
   "domains": [
+    "3pl_supply_chain_analytics",
     "supply_chain_analytics",
     "shipment_pricing_analysis",
     "transportation_mode_optimization",
