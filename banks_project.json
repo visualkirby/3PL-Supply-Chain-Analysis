@@ -8,11 +8,6 @@
 
   "role_scope": "base|operations|supply_chain",
 
-  "role_name": [
-    "Logistics Coordinator",
-    "Suppy Chain Analyst"
-  ],  
-
   "skills": [
     "Tableau",
     "Python",
