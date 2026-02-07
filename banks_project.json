@@ -137,7 +137,7 @@
       "business_value": "Drives stakeholder action",
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/SCMS_Delivery_History_Presentation.pdf",
       "files": [
-        "SCMS_Delivery_History_Presentation.pdf",
+        "SCMS_Delivery_History_Presentation.pdf"
       ],
       "tools": [
         { "tool_label": "PDF", "tool_keyword": "pdf" }
