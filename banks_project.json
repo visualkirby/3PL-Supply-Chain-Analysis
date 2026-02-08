@@ -19,7 +19,7 @@
     "KPI Development",
     "Vendor Performance"
   ],
-  
+
   "repo_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis",
 
   "domains": [
@@ -47,65 +47,107 @@
     }
   ],
 
+  "roles": [
+    "Supply Chain Analyst",
+    "Operations Analyst",
+    "Logistics Analyst",
+    "Data Analyst",
+    "BI Engineer"
+  ],
+
   "components": [
     {
       "component_id": "COMP_3PL_RAW_DATA",
       "name": "Raw Shipment Dataset",
-      "component_type": "dataset",
-      "deliverable_type": "dataset",
-      "objective": "Provide reproducible shipment pricing and delivery data",
-      "business_value": "Ensures data lineage and repeatable analytics",
+      "component_type": "extract_layer",
+      "deliverable_type": "raw_datasets",
+
+      "objective": "Collect and preserve raw shipment pricing and delivery records to establish a reproducible analytical foundation.",
+      "business_value": "Ensures traceable data lineage and supports repeatable analysis without reliance on unstable external sources.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/Raw_Data.csv",
+
       "files": [
         "Raw_Data.csv"
       ],
+
       "tools": [
-        { "tool_label": "Kaggle", "tool_keyword": "kaggle" },
-        { "tool_label": "CSV", "tool_keyword": "csv" }
+        { "tool_label": "Kaggle", "tool_keyword": "kaggle" }
       ],
+
       "skills": [
-        { "skill_keyword": "data_sourcing", "weight": 0.6 }
+        {
+          "skill_label": "Data Sourcing",
+          "skill_keyword": "data_sourcing",
+          "weight": 0.6
+        }
       ]
     },
 
     {
       "component_id": "COMP_3PL_CLEANED_DATA",
       "name": "Cleaned Analytical Dataset",
-      "component_type": "dataset",
-      "deliverable_type": "dataset",
-      "objective": "Clean and standardize shipment fields and dates",
-      "business_value": "Improves KPI accuracy and reduces noise",
+      "component_type": "transform_layer",
+      "deliverable_type": "cleaned_analytical_dataset",
+
+      "objective": "Standardize shipment fields, dates, and identifiers into analysis-ready structures.",
+      "business_value": "Improves KPI accuracy and reduces analytical noise, enabling reliable performance measurement.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/Cleaned_Data.csv",
+
       "files": [
         "Cleaned_Data.csv"
       ],
+
       "tools": [
         { "tool_label": "Python", "tool_keyword": "python" },
         { "tool_label": "SQL", "tool_keyword": "sql" }
       ],
+
       "skills": [
-        { "skill_keyword": "data_cleaning", "weight": 0.5 },
-        { "skill_keyword": "data_transformation", "weight": 0.5 }
+        {
+          "skill_label": "Data Cleaning",
+          "skill_keyword": "data_cleaning",
+          "weight": 0.5
+        },
+        {
+          "skill_label": "Data Transformation",
+          "skill_keyword": "data_transformation",
+          "weight": 0.5
+        }
       ]
     },
 
     {
       "component_id": "COMP_3PL_KPI_EXPORTS",
       "name": "KPI Calculations",
-      "component_type": "dataset",
-      "deliverable_type": "dataset",
-      "objective": "Generate validated KPIs for delivery and cost tradeoffs",
-      "business_value": "Supports decision-ready analytics",
+      "component_type": "load_and_model",
+      "deliverable_type": "analytical_data_models",
+
+      "objective": "Design validated KPI tables for delivery performance, cost efficiency, and vendor reliability.",
+      "business_value": "Provides consistent, reusable metrics that support executive reporting and operational decision-making.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/KPI_Calculations.csv",
+
       "files": [
         "KPI_Calculations.csv"
       ],
+
       "tools": [
-        { "tool_label": "Excel", "tool_keyword": "excel" },
-        { "tool_label": "CSV", "tool_keyword": "csv" }
+        { "tool_label": "Excel", "tool_keyword": "excel" }
       ],
+
       "skills": [
-        { "skill_keyword": "kpi_development", "weight": 0.6 }
+        {
+          "skill_label": "KPI Development",
+          "skill_keyword": "kpi_development",
+          "weight": 0.6
+        },
+        {
+          "skill_label": "Data Modeling",
+          "skill_keyword": "data_modeling",
+          "weight": 0.4
+        }
       ]
     },
 
@@ -114,17 +156,26 @@
       "name": "Tableau Dashboard",
       "component_type": "data_visualization",
       "deliverable_type": "dashboard",
-      "objective": "Visualize SLA and cost drivers interactively",
-      "business_value": "Enables rapid insight exploration",
+
+      "objective": "Build interactive dashboards to analyze SLA risk, cost drivers, and transportation-mode performance.",
+      "business_value": "Enables rapid insight exploration and self-service analysis for operations and leadership teams.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/SCMS_Delivery_History_Dashboard.png",
+
       "files": [
         "SCMS_Delivery_History_Dashboard.png"
       ],
+
       "tools": [
         { "tool_label": "Tableau", "tool_keyword": "tableau" }
       ],
+
       "skills": [
-        { "skill_keyword": "data_visualization", "weight": 0.6 }
+        {
+          "skill_label": "Data Visualization",
+          "skill_keyword": "data_visualization",
+          "weight": 0.6
+        }
       ]
     },
 
@@ -132,18 +183,27 @@
       "component_id": "COMP_3PL_EXEC_PDF_PRESENTATION",
       "name": "Executive PDF Presentation",
       "component_type": "report",
-      "deliverable_type": "pdf",
-      "objective": "Communicate insights and recommendations",
-      "business_value": "Drives stakeholder action",
+      "deliverable_type": "report",
+
+      "objective": "Summarize analytical findings, assumptions, and recommendations in a formal executive report.",
+      "business_value": "Supports leadership decision-making by translating analysis into clear, documented insights.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/SCMS_Delivery_History_Presentation.pdf",
+
       "files": [
         "SCMS_Delivery_History_Presentation.pdf"
       ],
+
       "tools": [
         { "tool_label": "PDF", "tool_keyword": "pdf" }
       ],
+
       "skills": [
-        { "skill_keyword": "executive_communication", "weight": 0.7 }
+        {
+          "skill_label": "Executive Communication",
+          "skill_keyword": "executive_communication",
+          "weight": 0.7
+        }
       ]
     },
 
@@ -152,18 +212,27 @@
       "name": "Executive PowerPoint Presentation",
       "component_type": "slides_and_video",
       "deliverable_type": "pptx",
-      "objective": "Communicate insights and recommendations",
-      "business_value": "Drives stakeholder action",
+
+      "objective": "Present key insights and recommendations through narrative-driven slide decks.",
+      "business_value": "Demonstrates ability to communicate complex operational findings in stakeholder-ready formats.",
+
       "component_link": "https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/SCMS_Delivery_History_Presentation.pptx",
+
       "files": [
         "SCMS_Delivery_History_Presentation.pptx"
       ],
+
       "tools": [
         { "tool_label": "PowerPoint", "tool_keyword": "powerpoint" }
       ],
+
       "skills": [
-        { "skill_keyword": "executive_presentation", "weight": 0.7 }
+        {
+          "skill_label": "Executive Presentation",
+          "skill_keyword": "executive_presentation",
+          "weight": 0.7
+        }
       ]
     }
   ]
-}
+        }
