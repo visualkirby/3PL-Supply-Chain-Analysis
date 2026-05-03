@@ -78,11 +78,11 @@ Interactive dashboard and guided story used to analyze delivery performance, cos
 
 ### Dashboard
 
-[![SCMS Delivery History Dashboard](https://img.shields.io/badge/🧠_SCMS_Delivery_History_Dashboard-6733EB)](https://public.tableau.com/app/profile/sawandi.kirby/viz/SCMS_Delivery_History_Dashboard/SCMS_Delivery_History_Dashboard)  
+[![SCMS Delivery History Dashboard](https://img.shields.io/badge/🧠_SCMS_Delivery_History_Dashboard-03a6a5)](https://public.tableau.com/app/profile/sawandi.kirby/viz/SCMS_Delivery_History_Dashboard/SCMS_Delivery_History_Dashboard)  
 
 ### Story
 
-[![SCMS Delivery History Story](https://img.shields.io/badge/📖_SCMS_Delivery_History_Story-6733EB)](https://public.tableau.com/app/profile/sawandi.kirby/viz/SCMS_Delivery_History_Story/SCMS_Delivery_History_Story)  
+[![SCMS Delivery History Story](https://img.shields.io/badge/📖_SCMS_Delivery_History_Story-03a6a5)](https://public.tableau.com/app/profile/sawandi.kirby/viz/SCMS_Delivery_History_Story/SCMS_Delivery_History_Story)  
 
 ---
 
@@ -119,7 +119,7 @@ Analytical workflow used to clean the data, explore delivery and cost drivers, d
 
 [![Clean & Analysis Python Script](https://img.shields.io/badge/🐍_Clean_&_Analysis_Python_Script-0B7285)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/shipment_pipeline.py)
 
-[![Clean & Analysis RStudio Code](https://img.shields.io/badge/📃_Clean_&_Analysis_RStudio_Code-4C1D95)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/KPIs.md)
+[![Clean & Analysis RStudio Code](https://img.shields.io/badge/📃_Clean_&_Analysis_RStudio_Code-05467c)](https://github.com/visualkirby/3PL-Supply-Chain-Analysis/blob/main/KPIs.md)
 
 ### KPIs
 
@@ -241,3 +241,17 @@ The goal is not to build charts for their own sake, but to demonstrate how **dat
 │
 └── Logs/
     └── analysis_log.md
+```
+
+---
+
+## Author
+
+**Sawandi Kirby**
+
+Data Analytics & Business Intelligence  
+Benchline Analytics — Freelance data consultancy focused on K-12 schools and medical practices.
+
+- GitHub: https://github.com/visualkirby
+- LinkedIn: https://linkedin.com/in/sawandi-kirby
+- Kaggle: https://kaggle.com/sawandikirby
