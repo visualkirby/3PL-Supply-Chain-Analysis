@@ -10,7 +10,7 @@ This project analyzes **real shipment pricing and delivery data** to understand 
 - 🏭 **Vendor operations**
 - 🌍 **Geography**
 
-influence **delivery reliability**, **delivery timing**, and **logistics cost** — and where targeted 3PL interventions can deliver the **highest reliability gains per dollar spent**.
+influence **delivery reliability**, **delivery timing**, and **logistics cost**, and where targeted 3PL interventions can deliver the **highest reliability gains per dollar spent**.
 
 Rather than treating speed and cost as a binary choice, this analysis identifies **where selective rebalancing** (vendors, lanes, and shipment modes) can improve SLA performance **without disproportionately increasing logistics spend**.
 
@@ -62,7 +62,7 @@ Rather than treating speed and cost as a binary choice, this analysis identifies
 
   Excluding N/A shipment mode, the On-Time percentage is 88.1% at a -6.2 Days delayed. While these numbers mean that shipments are expected to arrive about 6 days early, this may harm SLAs and cause distrust amongst customers who may find estimated delivery dates "unreliable".
 
-  The bulk of shipments are through Air with over 6,000 shipments at a 90.4 on time percentage delayed -3.8 days, which is not bad. Although, at an average unit cost of $50 USD, Air shipment is not very cost effective. Ocean shipments are the least reliable with 83.5% on-time average 5.9 days delayed, however, at just $8 USD per unit this is the cheapest method. Trucks are the second cheapest shipment mode at $15 USD per unit. Trucks are also the second riskiest mode at 83.9% on-time average at -9.9 days delayed. Since truck shipping is the second most used shipment mode at 2,830 shipments, this is where a third-party logistics provider can intervene.
+  The bulk of shipments are through Air, with over 6,000 shipments at a 90.4% on-time percentage delayed -3.8 days. At an average unit cost of $50 USD, though, Air shipment costs far more than the alternatives. Ocean shipments are the least reliable at 83.5% on-time average and 5.9 days delayed, but at just $8 USD per unit, Ocean is the cheapest method. Trucks sit in between: the second-cheapest mode at $15 USD per unit, but also the second-riskiest at 83.9% on-time average and -9.9 days delayed. Since truck shipping is the second most used shipment mode at 2,830 shipments, this is where a third-party logistics provider can intervene.
 
   The riskiest shipments are centered around the African region and there are only 2 vendors that use truck shipments inside of Africa. By adding 1 or 2 more third-party trucking providers SCMS can increase their on-time average and trade off some of their expensive air shipments with more costly truck shipments.
 
@@ -250,7 +250,7 @@ The goal is not to build charts for their own sake, but to demonstrate how **dat
 **Sawandi Kirby**
 
 Data Analytics & Business Intelligence  
-Benchline Analytics — Freelance data consultancy focused on K-12 schools and medical practices.
+Benchline Analytics - Data intelligence for organizations that mean business.
 
 - GitHub: https://github.com/visualkirby
 - LinkedIn: https://linkedin.com/in/sawandi-kirby
